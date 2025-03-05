@@ -213,7 +213,7 @@ const colors = [
   }
   .containerInputs {
     color:white;
-  	font-size: medium;
+  	font-size: x-small;
   }
 
   .zodiacName {
