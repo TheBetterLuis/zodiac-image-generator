@@ -36,11 +36,6 @@ import html2canvas from 'html2canvas';
       link.href = canvas.toDataURL('image/png');
       link.download = `${zodiacName}.png`;
       link.click();
-
-      if (backgroundImageSrc) {
-        URL.revoke.ObjectURL(backgroundImageSrc); 
-        backgroundImageSrc=null;
-      }
     });
   }
 
