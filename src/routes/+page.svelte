@@ -204,10 +204,16 @@ const colors = [
     resize: vertical;
   }
   #page-content{
-  	display: flex;
+  	display: grid;
+  	grid-template-columns: 1fr;
+  	justify-items: center;
+    background-color: #333;
+  padding-block: 40px;
+
   }
   .containerInputs {
-    background-color: cyan;
+    color:white;
+  font-size: x-large;
   }
 
   .zodiacName {
